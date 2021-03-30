@@ -18,5 +18,4 @@ public class ProblemTest {
         double result = myProblem.distance("48° 12′ 30″ N, 16° 22′ 23″ E", "47° 12′ 30″ N, 16° 22′ 23″ E");
         assertEquals( 60.0 * 1.852, result, 10.0 );
     }
-
 }
